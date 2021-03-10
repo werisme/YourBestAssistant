@@ -7,6 +7,7 @@ ad ogni altro assistente vocale.
 Per ora il progetto non possiede del vero e proprio codice, ma provvederemo ad aggiungerlo il prima possibile.
 
 Translated using Google translate:
+
 Welcome to the Repository regarding the project regarding a new and interactive voice assistant.
 Here my friend Werisme and I will engage in the development of the aforementioned program, which will have disparate functionalities, including common ones
 to any other voice assistant.
