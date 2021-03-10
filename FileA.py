@@ -1,0 +1,2 @@
+def Ciao():
+    print("Ciao")
