@@ -26,6 +26,7 @@ class Ui_MainWindow(object):
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton.setGeometry(QtCore.QRect(40, 60, 75, 23))
         self.pushButton.setObjectName("pushButton")
+        self.pushButton.clicked.connect(self.clicked)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 314, 21))
@@ -43,6 +44,13 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label.setText(_translate("MainWindow", "Prova Testo"))
         self.pushButton.setText(_translate("MainWindow", "Premimi!"))
+
+    def clicked(self):
+        self.label.setText("Hai premuto il bottone!")
+        self.update()
+
+    def update(self):
+        self.label.adjustSize()
 
 
 if __name__ == "__main__":
