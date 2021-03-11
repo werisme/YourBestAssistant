@@ -1,2 +1,0 @@
-def Ciao():
-    print("Ciao")
